@@ -1,0 +1,489 @@
+.footer-section {
+  padding: 6em 0;
+  position: relative; 
+}
+@media (max-width: 767.98px) {
+    .footer-section {
+      padding: 6em 0; 
+    } 
+}
+
+.justify-content-end {
+  justify-content: flex-end !important; 
+}
+
+.ftco-search {
+  position: relative;
+  width: 100%;
+  display: block; 
+  padding: 20px 0 0 0 !important;
+}
+
+
+@media (min-width: 768px) {
+    .ftco-search {
+      margin-top: -206px;
+      padding: 0 !important; 
+    } 
+	
+}
+
+ .ftco-search .container-wrap {
+    z-index: 1; 
+}
+    @media (min-width: 768px) {
+      .ftco-search .container-wrap {
+        width: 93%; 
+    } 
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+
+  .nav{
+      display: block;
+  }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #78d5ef; }
+
+   @media (max-width: 767.98px) {
+      .ftco-search .nav-pills .nav-link {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px; 
+    } 
+}
+
+.nav-pills:hover{
+  color:#fff;
+}
+.ftco-search .nav-pills .nav-link.active:after, 
+.ftco-search .nav-pills .nav-link:hover:after {
+        opacity: 1; 
+    }
+      @media (max-width: 767.98px) {
+        .ftco-search .nav-pills .nav-link.active:after, 
+        .ftco-search .nav-pills .nav-link:hover:after {
+          opacity: 0; 
+          
+        } 
+    }
+ .ftco-search .tab-content {
+    background: #fff; }
+@media(min-width:768px){
+.box-center{
+   
+    margin-left: 100px;
+}	
+}
+
+@media(min-width:768px){
+    .row{    
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (min-width: 576px){
+.col-sm {
+ 
+    flex-grow: 1;
+    
+}
+
+
+
+}
+@media (max-width: 575px){
+.col-sm {
+ 
+    flex-grow: 1;
+    
+}
+.destination .text .bottom-area span:last-child a {
+    background: #08c299;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin-left: 39rem;
+  }
+}
+.justify-content-center {
+
+  justify-content: center !important; 
+} 
+
+  .text-center {
+  text-align: center !important; }
+
+
+  .nav-link{
+      color: #fff;
+  }
+
+  .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75); 
+  
+}
+
+.ftco-search .nav-pills .nav-link {
+    padding: 10px 30px !important;
+    border-radius: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.ftco-search .nav-pills .nav-link.active,
+.ftco-search .nav-pills .nav-link:hover {
+    color: #fff;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    background: #f9be37;
+}
+
+@media (max-width: 991.98px){
+.ftco-search .nav-pills .nav-link {
+        color: black;
+    }
+}
+
+
+
+.ftco-search .tab-content {
+    background: #fff; 
+}
+
+.p-4 {
+  padding: 1.5rem !important; 
+
+}
+
+.px-5 {
+  padding-left: 3rem !important; 
+}
+
+@media (max-width: 767.98px) {
+      .search-destination .form-group .icon {
+        right: 10px;
+     } 
+}
+  
+.search-destination .form-group .form-control.btn.btn-primary {
+        background: #f9be37 !important; 
+}
+
+.align-items-end {
+  align-items: flex-end !important; 
+}
+
+.form-group {
+  margin-bottom: 1rem; 
+}
+
+.search-destination .form-group .form-field {
+    position: relative;
+    display: block; 
+}
+
+  .search-destination .form-group .icon {
+    position: absolute;
+    top: 51%;
+    left: 10px;
+    font-size: 16px;
+    transform: translateY(-50%);
+    color: #f9be37; 
+}
+    @media (max-width: 767.98px) {
+      .search-destination .form-group .icon {
+        right: 10px; 
+    } 
+}
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+
+
+.form-control {
+  height: 52px !important;
+  box-shadow: none !important;
+  
+
+}
+.form-control:focus, 
+.form-control:active {
+    border-color: #000000; 
+}
+
+.tab-content > .active {
+    display: block;
+}
+.search-destination .form-group .form-control {
+    padding-left: 30px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    color: rgba(0, 0, 0, 0.7) !important;
+    background: transparent !important; 
+}
+
+@media(min-width:768px){
+    .search-destination .form-group .form-control {
+    padding-left: 30px;
+  
+    display: block;
+    width: 90%;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    color: rgba(0, 0, 0, 0.7) !important;
+    background: transparent !important; 
+}
+}
+ 
+
+.search-destination .form-group {
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .col-md{
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.align-self-end {
+  align-self: flex-end !important; 
+}
+
+/* Travely Agency */
+
+
+@media(max-width:768px){
+  .agency-img{
+    width: 100%;
+  }
+  .Agency-text{ 
+    font-weight: bold;
+  }
+  .paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 3rem;
+  }
+}
+
+@media(min-width:768px){
+  .agency-img{
+    width: 100%;
+    
+  }
+  .Agency-text{
+ 
+    font-weight: bold;
+ 
+  }
+   .paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 3rem;
+
+   
+  }
+  
+}
+
+@media(min-width:992px){
+	.about_index{
+		margin-top:230px!important;
+	}
+}
+@media (max-width:991px) and (min-width:767px){
+	.about_index{
+		margin-top:100px!important;
+	}
+}
+
+/* Packages */
+
+.ftco-section {
+  padding: 6em 0;
+  position: relative; 
+}
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; 
+    } 
+}
+.mb-5{
+  margin-bottom: 3rem !important; 
+}
+.pb-3{
+  padding-bottom: 1rem !important; 
+}
+.heading-section h2 {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: "Abril Fatface", cursive; }
+  @media (max-width: 767.98px) {
+    .heading-section h2 {
+      font-size: 28px; 
+    } 
+}
+.mb-4{
+  margin-bottom: 1.5rem !important; 
+}
+
+
+.destination {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px; 
+}
+  @media (max-width: 991.98px) {
+    .destination {
+      margin-bottom: 30px; 
+    } 
+  }
+
+  .destination .img {
+    display: block; 
+    height: 300px; 
+  }
+  .destination .img-2 {
+    height: 300px; 
+
+  }
+  .destination .icon {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    opacity: 0;
+    border-radius: 50%;
+     }
+ 
+  .destination .text {
+    background: #fff; 
+  }
+    .destination .text h3 {
+      font-size: 18px;
+      font-weight: 500; 
+    }
+      .destination .text h3 a {
+        color: #000000; 
+  }
+    .destination .text span.listing {
+      font-size: 14px; 
+}
+    .destination .text .rate i {
+      font-size: 12px;
+      color: #f9be37;
+      margin: 0; 
+}
+    .destination .text .rate span {
+      font-size: 10px; 
+}
+.destination .text .one {
+      width: calc(100% - 70px); 
+}
+.destination .text .two {
+      
+          width: 70px;
+      margin-top:20px;
+      text-align: right; 
+}
+      .destination .text .two .price {
+        font-weight: 400;
+        font-size: 18px;
+        color: #2f89fc; 
+}
+      .destination .text .two .per-price {
+        font-size: 20px;
+        line-height: 1.4; 
+}
+        .destination .text .two .per-price small {
+          font-size: 12px; 
+}
+    .destination .text .days span {
+      font-size: 13px;
+      color: black; 
+}
+    .destination .text .bottom-area {
+      margin-bottom: 0; 
+}
+      .destination .text .bottom-area span {
+        font-size: 14px; 
+} 
+@media (min-width: 768px) {
+    .destination .text .bottom-area span:last-child {
+     margin-left: 5px; 
+
+    } 
+ 
+}
+
+  .destination .text .bottom-area span:last-child a:hover {
+            background: #08c299;
+            color: #fff;
+}
+.d-flex {
+  display: flex !important; 
+}
+
+.justify-content-center {
+  justify-content: center !important; 
+}
+
+.align-items-center {
+  align-items: center !important; 
+}
+
+ .img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+@media (min-width: 992px){
+.col-lg {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 25%;
+}
+.destination .text .bottom-area span:last-child a {
+    background: #08c299;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px 5px;
+    margin-left: 28rem;
+  }
+ 
+}
