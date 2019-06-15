@@ -7,7 +7,9 @@
       padding: 6em 0; 
     } 
 }
-
+td-n{
+  text-decoration: none;
+}
 .justify-content-end {
   justify-content: flex-end !important; 
 }
@@ -22,7 +24,7 @@
 
 @media (min-width: 768px) {
     .ftco-search {
-      margin-top: -206px;
+      margin-top: -160px;
       padding: 0 !important; 
     } 
 	
@@ -44,7 +46,9 @@
   .nav{
       display: block;
   }
-
+.navbar-nav > li > a.active{
+  color:#f9be37;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
@@ -80,6 +84,8 @@
     margin-left: 100px;
 }	
 }
+
+
 
 @media(min-width:768px){
     .row{    
@@ -156,7 +162,7 @@
 
 @media (max-width: 991.98px){
 .ftco-search .nav-pills .nav-link {
-        color: black;
+        color: #000000;
     }
 }
 
@@ -248,12 +254,18 @@
     background: transparent !important; 
 }
 
+.search-destination .form-group .form-control.btn {
+    padding: 0 !important;
+    font-size: 16px;
+    color: #fff !important;
+}
+
 @media(min-width:768px){
     .search-destination .form-group .form-control {
     padding-left: 30px;
   
     display: block;
-    width: 90%;
+    width: 100%;
     font-size: 14px;
     border: 1px solid #d9d9d9;
     color: rgba(0, 0, 0, 0.7) !important;
@@ -286,7 +298,7 @@ label {
 /* Travely Agency */
 
 
-@media(max-width:768px){
+@media(max-width:767.98px){
   .agency-img{
     width: 100%;
   }
@@ -294,12 +306,39 @@ label {
     font-weight: bold;
   }
   .paragraph{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 3rem;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #666666;
   }
 }
-
 @media(min-width:768px){
+  .agency-img{
+    width: 200%;
+    
+  }
+  .Agency-text{
+ 
+    font-weight: bold;
+ 
+  }
+   .paragraph{
+     width: 100%;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #666666;
+
+   
+  }
+  
+}
+
+@media(min-width:992px){
   .agency-img{
     width: 100%;
     
@@ -310,8 +349,12 @@ label {
  
   }
    .paragraph{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 3rem;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #666666;
 
    
   }
@@ -323,10 +366,12 @@ label {
 		margin-top:230px!important;
 	}
 }
-@media (max-width:991px) and (min-width:767px){
+@media (max-width:991.98px) and (min-width:767px){
 	.about_index{
 		margin-top:100px!important;
-	}
+  }
+  
+ 
 }
 
 /* Packages */
@@ -483,7 +528,125 @@ label {
     color: #fff;
     border-radius: 4px;
     padding: 3px 5px;
-    margin-left: 28rem;
+    
   }
  
 }
+
+
+/* article */
+
+.bg-light {
+  background-color: #f8f9fa !important; 
+}
+@media (min-width: 768px) {
+  .blog-entry {
+    margin-bottom: 30px; 
+  } 
+  
+}
+
+@media (max-width: 767.98px) {
+  .blog-entry {
+    margin-bottom: 30px; 
+  } 
+
+
+}
+
+.blog-entry .text {
+  position: relative;
+  border-top: 0;
+  border-radius: 2px; 
+}
+  .blog-entry .text .tag {
+    font-size: 14px;
+    color: #fff;
+    padding: 2px 8px;
+    display: inline-block;
+    background: #08c299;
+    position: absolute;
+    top: -34px;
+    left: 0; 
+  }
+  .blog-entry .text .heading {
+    font-size: 20px;
+    margin-bottom: 16px; 
+  }
+    .blog-entry .text .heading a {
+      color: #000000; 
+    }
+.blog-entry .text .heading a:hover, 
+.blog-entry .text .heading a:focus, 
+.blog-entry .text .heading a:active {
+        color: #f9be37; 
+}
+  .blog-entry .text .meta-chat {
+    color: #b3b3b3; 
+  }
+  .blog-entry .text .read {
+    color: #000000;
+    font-size: 14px; 
+  }
+
+.blog-entry .meta > div {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px; 
+}
+  .blog-entry .meta > div a {
+    color: #b3b3b3;
+    font-size: 15px; 
+  }
+    .blog-entry .meta > div a:hover {
+      color: #cccccc; 
+    }
+
+ .align-self-stretch {
+  align-self: stretch !important; 
+}
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  position: relative;
+  display: block; 
+}  
+
+.mt-3{
+  margin-top: 1rem !important; 
+}
+
+
+/* Contact Us */
+
+.center{
+  justify-content:flex-center;
+  text-align: center;
+}
+
+.form-group .textarea{
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  box-shadow: none !important;
+  
+  
+}
+
+.map{
+      margin-left: 0;
+      left:100px;
+      top:55px;
+  }
+
+
+  /* About Us */
+
+  .teamParagraph{
+      line-height: 3rem;
+  }

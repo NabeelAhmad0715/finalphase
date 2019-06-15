@@ -12,19 +12,32 @@
 */
 
  Route::get('/', function () {
-    return view('front-end\nav');
+    return view('front_end\Login');
 });
 
-// Route::get('/','pageController@home');
+//    packages
+Route::get('/Home','frontEnd\packageController@home');
+Route::get('/genericPackages','frontEnd\packageController@genericPackage');
+Route::get('/flightPackages','frontEnd\packageController@flightPackages');
+Route::get('/hotelPackages','frontEnd\packageController@hotelPackages');
+Route::get('/carRentalPackages','frontEnd\packageController@carRentalPackages');
 
+
+// Inssurance
+Route::get('/travelInsurance','frontEnd\packageController@travelInsurance');
+Route::get('/flightInsurance','frontEnd\packageController@flightInsurance');
+
+// home Pages
 
 Route::get('/Signup','frontEnd\IndexController@signup');
 Route::get('/Login','frontEnd\IndexController@login');
-Route::get('/roundWayTrip','frontEnd\IndexController@roundTrip');
-Route::get('/footer','frontEnd\IndexController@footer');
-// Route::get('/header','frontEnd\IndexController@Header');
+Route::get('/resetPassword','frontEnd\IndexController@reset');
+Route::get('/forgotPassword','frontEnd\IndexController@forgot');
+Route::get('/about','frontEnd\IndexController@aboutUS');
+Route::get('/contact','frontEnd\IndexController@contactUs');
+Route::get('/booking','frontEnd\IndexController@booking');
+
 
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');

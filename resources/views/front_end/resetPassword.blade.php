@@ -14,41 +14,32 @@
                     <div class="row">
                         <div class="col-md-8" style="margin-top:120px; box-shadow: 1px -1px 50px 10px;">
                             <ul>
-                                <a href=# >Sign In</a>
-                                <a href=# style="border-bottom:2px solid #03a9f4; padding:10px;">/ Sign up</a>
+                                <a href="{{url('Login')}}" style="border-bottom:2px solid #f9be37; padding:10px;">Sign In</a>
+                                <a href="{{url('Signup')}}" >/ Sign up</a>
                             </ul>   
                                 <div class="box">
                                     
-                                    <h2 style="color:#03a9f4">Travely</h2>
-                                    <form>
+                                    <h2 style="color:#f9be37">Travely</h2>
+                                    <form action="{{url('Login')}}">
 
                                     
                                         <div class="inputBox">
-                                            <input type="text" required="">
-                                            <label><b>First Name:</b></label>
-
-
-                                        </div>
-                                         <div class="inputBox">
-                                            <input type="text" required="">
-                                            <label><b>Second Name:</b></label>
-
-
-                                        </div>
-                                         <div class="inputBox">
-                                            <input type="email" required="">
-                                            <label><b>Email:</b></label>
+                                            <input type="password" required="">
+                                            <label><b>Old Password:</b></label>
 
 
                                         </div>
                                         <div class="inputBox">
                                             <input type="password" required="">
-                                            <label><b>password:</b></label><br>
+                                            <label><b>New password:</b></label><br>
 
                                         </div>
-                                        
-                                        <input type="submit" value="Register"><br>
-                                        <a href="#">Already have an account?<span style="color:white">Sign In</span></a>
+                                        <div class="inputBox">
+                                            <input type="password" required="">
+                                            <label><b>Confirm password:</b></label><br>
+
+                                        </div>
+                                        <input type="submit" value="Save"><br>
                                         
                                     </form>
                                </div>

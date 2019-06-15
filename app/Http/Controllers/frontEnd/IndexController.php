@@ -9,24 +9,34 @@ class IndexController extends Controller
 {
     
   
-     public function footer(){
-        return view('front-end.footer');
-     }
+    public function aboutUs(){
+        return view('front_end.about');
+    }
 
-     public function roundTrip(){
-         return view('front-end.roundwaytrip');
-     }
+    public function contactUs(){
+        return view('front_end.contact');
+    }
+
+    public function booking(){
+        return view('front_end.booking');
+    }
 
      public function login(){
-        return view('front-end.login');
+        return view('front_end.login');
     }
 
 
     public function signup(){
-        return view('front-end.Signup');
+        return view('front_end.Signup');
+    }
+    
+    
+    public function reset(){
+        return view('front_end.resetPassword');
     }
 
-    public function Header(){
-        return view('front-end.nav');
+     public function forgot(){
+        return view('front_end.forgotPassword');
     }
+   
 }

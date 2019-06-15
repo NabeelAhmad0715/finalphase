@@ -4,7 +4,7 @@
     margin:0px;
     padding: 0px;
 }
-.login-img{
+body{
     background-image: url('/img/p3.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -21,16 +21,14 @@ ul a{
 }
 ul a:hover{
     text-decoration: none;
-    color: gray;
+    color: #fff;
 }
 
 .box{
 
     top: 20px;
-    
     padding: 23px;
     box-sizing: border-box;
-   
     border-radius: 10px;
 }
 .box h2{
@@ -47,7 +45,6 @@ ul a:hover{
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
-    
     width: 100%;
     letter-spacing: 1px;
     margin-bottom: 30px;
@@ -73,16 +70,18 @@ ul a:hover{
 .box .inputBox input:focus ~ label,
 .box .inputBox input:valid ~ label{
     top:-15px;
-    color: #03a9f4;
+    color: #f9be37;
     font-size: 15px;
 }
+
+
 .box input[type="submit"]{
     
     border: none;
     outline: none;
     color: #fff;
     width: 100%;
-    background: #03a9f4;
+    background: #f9be37;
     padding: 10px 20px;
     cursor:pointer;
     border-radius: 5px;
