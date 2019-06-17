@@ -12,10 +12,9 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-8">
                     <div class="row">
-                        <div class="col-md-8" style="margin-top:120px; box-shadow: 1px -1px 50px 10px;">
+                        <div class="col-md-8" style="margin-top:70px; box-shadow: 1px -1px 50px 10px;">
                             <ul>
                                 <a href="{{url('Login')}}" >Sign In</a>
-                                <a href="{{url('Signup')}}" style="border-bottom:2px solid #f9be37; padding:10px;">/ Sign up</a>
                             </ul>   
                                 <div class="box">
                                     
@@ -44,6 +43,11 @@
                                         <div class="inputBox">
                                             <input type="password" required="">
                                             <label><b>password:</b></label><br>
+
+                                        </div>
+                                         <div class="inputBox">
+                                            <input type="password" required="">
+                                            <label><b>Confirm password:</b></label><br>
 
                                         </div>
                                         

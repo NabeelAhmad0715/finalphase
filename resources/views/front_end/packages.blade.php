@@ -1,5 +1,8 @@
 @extends('front_end.nav')
 
+@extends('front_end.customPackages')
+
+
 @section('content')
 
   <section>

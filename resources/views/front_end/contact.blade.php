@@ -1,5 +1,9 @@
 @extends('front_end.nav')
 
+@section('customPackage')
+  <div class="header-img" style="background-image: url('/img/bg_1.jpg');height: 502px;">
+</div>
+@endsection
 @section('content')
   <section>
       <div class="container">

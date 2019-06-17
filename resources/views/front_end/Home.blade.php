@@ -1,5 +1,6 @@
 @extends('front_end.nav')
 
+@extends('front_end.customPackages')
 @section('content')
    <!-- Travel Agency -->
     <section class="about_index">

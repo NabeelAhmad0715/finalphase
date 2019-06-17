@@ -1,27 +1,28 @@
 @extends('front_end.nav')
-
+@section('customPackage')
+  <div class="header-img" style="background-image: url('/img/bg_1.jpg');height: 502px;">
+</div>
+@endsection
 @section('content')
-
  <!-- Travel Agency -->
-    <section class="about_index">
+    <section style="margin-bottom:20px;" class="about_index1">
       <div class="container-fluid">
           <div class="row">
-			    <div class="col-md-12">
-				    <div class="col-md-6">
-						    <img  class="agency-img" src="./img/about.jpg">
-					</div>
-					<div class="col-md-6">
-							<h2 class="Agency-text">The Best Travel Agency</h2>
-							<p class="paragraph">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-						</div>
-				    </div>
+						<div class="col-md-12">
+								<div class="col-md-6">
+											<img  class="agency-img" src="./img/about.jpg">
+								</div>
+								<div class="col-md-6">
+														<h2 class="Agency-text">The Best Travel Agency</h2>
+														<p class="paragraph">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+									</div>
+								</div>
               </div>
           </div>
       </div>
-</section>
-
+    </section>
 	<!-- Team -->
- <div class="ftco-section">
+ <div>
       <div class="container">
          <div class="row justify-content-center mb-5" >
           <div class="col-md-7">
