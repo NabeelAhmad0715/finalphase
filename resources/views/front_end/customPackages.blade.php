@@ -10,11 +10,10 @@
 
                       <a style="text-decoration:none;" class="nav-link " id="v-pills-2-tab" data-toggle="pill" aria-controls="v-pills-2" href="#v_pills_2" role="tab"  aria-selected="false">Hotel</a>
 
-                      <a style="text-decoration:none;" class="nav-link " id="v-pills-3-tab" data-toggle="pill" href="#v_pills_3" aria-controls="v-pills-3" role="tab"  aria-selected="false">Rental</a>
+                      <a style="text-decoration:none;" class="nav-link " id="v-pills-3-tab" data-toggle="pill" href="#v_pills_3" aria-controls="v-pills-3" role="tab"  aria-selected="false">Car</a>
 					  
 					            <a style="text-decoration:none;" class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v_pills_4" role="tab" aria-controls="v-pills-4" aria-selected="false">Travel Insurance</a>
                     
-					            <a style="text-decoration:none;" class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v_pills_5" role="tab" aria-controls="v-pills-5" aria-selected="false">Flight Insurance</a>
 					
 					</div>
                   </div>
@@ -45,8 +44,8 @@
                                         <div class="form-group">
                                           <label for="#">Check In</label>
                                           <div class="form-field">
-                                            <div class="icon"><span class="icon-map-marker"></span></div>
-                                            <input type="text" class="form-control checkin_date" id="calendar"  placeholder="Check In" required>
+                                            <div class="icon"><span class="icon-calendar"></span></div>
+                                            <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
                                           </div>
                                         </div>
                                       </div>
@@ -54,8 +53,8 @@
                                         <div class="form-group">
                                           <label for="#">Check Out</label>
                                           <div class="form-field">
-                                            <div class="icon"><span class="icon-map-marker"></span></div>
-                                            <input type="text" class="form-control checkout_date" placeholder="From" required>
+                                            <div class="icon"><span class="icon-calendar"></span></div>
+                                            <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="From" required>
                                           </div>
                                         </div>
                                       </div>
@@ -64,7 +63,7 @@
                                         <label for="#">Travelers</label>
                                         <div class="form-field">
                                           <div class="select-wrap">
-                                            <div class="icon"><span class="icon-cart-arrow-down"></span></div>
+                                            <div class="icon"><span class="icon-person"></span></div>
                                             <select name="" id="" class="form-control" required>
                                               <option value="">0</option>
                                               <option value="">1</option>
@@ -95,8 +94,8 @@
                                     <div class="form-group">
                                       <label for="#">Check In</label>
                                       <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
-                                        <input type="text" class="form-control checkin_date" placeholder="Check In" required>
+                                        <div class="icon"><span class="icon-calendar"></span></div>
+                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
                                       </div>
                                     </div>
                                   </div>
@@ -104,8 +103,8 @@
                                     <div class="form-group">
                                       <label for="#">Check Out</label>
                                       <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
-                                        <input type="text" class="form-control checkout_date" placeholder="From" required>
+                                        <div class="icon"><span class="icon-calendar"></span></div>
+                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')" placeholder="From" required>
                                       </div>
                                     </div>
                                   </div>
@@ -114,7 +113,7 @@
                                       <label for="#">Guest</label>
                                       <div class="form-field">
                                         <div class="select-wrap">
-                                          <div class="icon"><span class="icon-cart-arrow-down"></span></div>
+                                          <div class="icon"><span class="icon-person"></span></div>
                                           <select name="" id="" class="form-control" required>
                                             <option value="">0</option>
                                             <option value="">1</option>
@@ -154,8 +153,8 @@
                                     <div class="form-group">
                                       <label for="#">Check In</label>
                                       <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
-                                        <input type="text" class="form-control checkin_date" placeholder="Check In" required>
+                                        <div class="icon"><span class="icon-calendar"></span></div>
+                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
                                       </div>
                                     </div>
                                   </div>
@@ -163,8 +162,8 @@
                                     <div class="form-group">
                                       <label for="#">Check Out</label>
                                       <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
-                                        <input type="text" class="form-control checkout_date" placeholder="From" required>
+                                        <div class="icon"><span class="icon-calendar"></span></div>
+                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="From" required>
                                       </div>
                                     </div>
                                   </div>
@@ -187,7 +186,7 @@
                                     <div class="form-group">
                                       <label for="#">Number of Person</label>
                                       <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
+                                        <div class="icon"><span class="icon-person"></span></div>
                                         <input type="text" class="form-control" placeholder="Persons" required>
                                       </div>
                                     </div>
@@ -196,7 +195,7 @@
                                     <div class="form-group">
                                       <label for="#">Total Budget</label>
                                       <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
+                                        <div class="icon"><span class="icon-money"></span></div>
                                         <input type="text" class="form-control checkin_date" placeholder="Budget" required>
                                       </div>
                                     </div>
@@ -212,37 +211,6 @@
                               </form>
                             </div>
 							
-							              <div class="tab-pane " id="v_pills_5" role="tabpanel" aria-labelledby="v-pills-effect-tab">
-                              <form action="{{url('/flightInsurance')}}" class="search-destination">
-                                <div class="row">
-                                  <div class="col-md align-items-end">
-                                    <div class="form-group">
-                                      <label for="#">Airline </label>
-                                      <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
-                                        <input type="text" class="form-control" placeholder="Airline Name" required>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md align-items-end">
-                                    <div class="form-group">
-                                      <label for="#">Total Budget</label>
-                                      <div class="form-field">
-                                        <div class="icon"><span class="icon-map-marker"></span></div>
-                                        <input type="text" class="form-control checkin_date" placeholder="Budget" required>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md align-self-end">
-                                    <div class="form-group">
-                                      <div class="form-field">
-                                        <input type="submit" value="Search" class="form-control btn btn-primary">
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </form>
-                            </div>
 					            	</div>
 					          </div>
                 </div>

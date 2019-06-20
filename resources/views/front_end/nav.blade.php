@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/travelyindexContent.css">
     <link rel="stylesheet" href="./css/packages.css">
-    <link rel="stylesheet" href="./css/flaticon.css">
       <script src="./js/popper.min.js"></script>
         <script src="./js/jquery.min.js"></script>
+        <script src="./js/scrollax.min.js"></script>
 
 
 
@@ -45,24 +45,28 @@
         
       <header >
        
-     <a href="{{url('Home')}}" class="logo" style="text-decoration:none;">Travely</a>
+      <a href="{{url('Home')}}" class="logo" style="text-decoration:none;">Travely</a>
         <div class="menu-toggle ">
         															
         </div>
-        <nav class="d-n ftco-navbar-light" >
-          <ul class="ml-auto navmenu" >
+        <nav class="d-n ftco-navbar-light" style="z-index:9;">
+          <ul class="ml-auto navmenu"  >
               <ul >
-              <li class="nav-item"><a href="{{url('Home')}}"  style="text-decoration:none;">Home</a></li>
-              <li class="nav-item"><a href="{{url('about')}}" style="text-decoration:none;">About</a></li> 
-              <li class="nav-item"><a href="{{url('genericPackages')}}"  style="text-decoration:none;">Packages</a></li>
-              <li class="nav-item"><a href="{{url('contact')}}" style="text-decoration:none;">Contact</a></li> 
+              <li class="nav-item"><a href="{{url('Home')}}" class="nav-ink" style="text-decoration:none;">HOME</a></li>
+              <li class="nav-item"><a href="{{url('about')}}" style="text-decoration:none;">ABOUT</a></li> 
+              <li class="nav-item"><a href="{{url('genericPackages')}}"  style="text-decoration:none;">PACKAGES</a></li>
+              <li class="nav-item"><a href="{{url('contact')}}" style="text-decoration:none;">CONTACT</a></li> 
               </ul>
+              
               <ul>
-              <li class="nav-item cart"><a style="text-decoration:none;color:white;"  href="{{url('booking')}}"><img src="./img/shopping-cart1.png">Cart</a></li>
-              <li class="nav-item"><a href="{{url('Login')}}" class="l-s"><i>Logout</i></a></li>
+                
+              <li class="nav-item cart"><a style="text-decoration:none;color:white;"  href="{{url('booking')}}"><img style="height:90%;"src="./img/shopping-cart1.png"></a></li>
+              <li class="nav-item"><a href="{{url('Login')}}" class="l-s"><i>LOGOUT</i></a></li>
             </ul>
           </ul>
-        </nav> 
+        </nav>  
+
+        
 
     
       </header> 
@@ -70,16 +74,19 @@
   
      
 <!-- Text -->
-		<div>
+		<!--<div>
       <div class="container">
         <div class="row slider-text  align-items-center justify-content-start" >
           <div class="col-md-12 mb-5 pb-5 text-center text-md-left textRight">
-            <h1 class="mb-4" style="margin-right:270px;font-family: Abril Fatface, cursive; font-size:5rem;" >Discover <br><span style="color:#fff;" >A new Place</span></h1>
-            <p>Find great places to stay, eat, shop, or visit from local experts</p>
+            
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
+      <span class="text-center" style="position:absolute;top:200px;margin:auto;width: 100%;padding: 10px;">
+          <h1 class="mb-4" style="font-family: Abril Fatface, cursive; font-size:5rem;" ><span style="color:#fff;">Discover</span> <br><span style="color:#fff;" >A new Place</span></h1>
+          <p style="color:#fff;">Find great places to stay, eat, shop, or visit from local experts</p>
+      </span> 
       <!-- Content -->
        @yield('customPackage')
     <!-- Home -->
@@ -96,16 +103,16 @@
   <div class="container-fluid">
     <div class="footer-social-icons">
       <ul>
-        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-skype"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-wechat"></i></a></li>
-        <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="{!! url('http://www.facebook.com') !!}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="{!! url('http://www.twitter.com') !!}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="{!! url('http://www.whatsapp.com') !!}" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="{!! url('http://www.instagram.com') !!}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="{!! url('http://www.linkedin.com') !!}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="{!! url('http://www.youtube.com') !!}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="{!! url('http://www.googlePlus.com') !!}" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="{!! url('http://www.skype.com') !!}" target="_blank"><i class="fa fa-skype"></i></a></li>
+        <li><a href="{!! url('http://www.wechat.com') !!}" target="_blank"><i class="fa fa-wechat"></i></a></li>
+        <li><a href="{!! url('http://www.pinterest.com') !!}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
       </ul>
     </div>
 

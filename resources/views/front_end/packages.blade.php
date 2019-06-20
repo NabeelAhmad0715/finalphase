@@ -18,10 +18,10 @@
                         <input type="text" class="form-control" placeholder="Current Location" required>
                     </div>
                     <div class="form-group">
-                        <input type="date" class="form-control" placeholder="Date from" required>
+                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')" placeholder="Date from" required>
                     </div>
                     <div class="form-group">
-                        <input type="date" class="form-control" placeholder="Date to" required>
+                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')" placeholder="Date to" required>
                     </div>
                     <div class="form-group">
                         <select class="form-control">
@@ -34,15 +34,15 @@
                     </div>
                     <div class="form-group">
                         <input type="checkbox"  value="5star" name="5star"   class="form-check-input">
-                        <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
+                        <p class="rate1"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span></p>
                          <input type="checkbox"  value="4star" name="4star" class="form-check-input">
-                        <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
+                        <p class="rate1"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i></span></p>
                         <input type="checkbox"  value="3star" name="3star" class="form-check-input">
-                        <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
+                        <p class="rate1"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
                         <input type="checkbox"  value="2star" name="2star" class="form-check-input">
-                        <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
+                        <p class="rate1"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
                         <input type="checkbox"  value="1star" name="1star" class="form-check-input">
-                        <p class="rate"><span><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
+                        <p class="rate1"><span><i class="icon-star"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i><i class="icon-star-o"></i></span></p>
 
                     </div>
                     <div class="form-group">

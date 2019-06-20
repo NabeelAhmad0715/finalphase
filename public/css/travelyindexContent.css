@@ -1,3 +1,7 @@
+body{
+  overflow-x:hidden;
+}
+
 .footer-section {
   padding: 6em 0;
   position: relative; 
@@ -13,7 +17,6 @@ td-n{
 .justify-content-end {
   justify-content: flex-end !important; 
 }
-
 .ftco-search {
   position: relative;
   width: 100%;
@@ -85,7 +88,9 @@ td-n{
 }	
 }
 
-
+nav ul li a:hover{
+  color:#f9be37;
+}
 
 @media(min-width:768px){
     .row{    
@@ -116,7 +121,6 @@ td-n{
     color: #fff;
     border-radius: 4px;
     padding: 3px 5px;
-    margin-left: 39rem;
   }
 }
 .justify-content-center {
@@ -162,10 +166,15 @@ td-n{
 
 @media (max-width: 991.98px){
 .ftco-search .nav-pills .nav-link {
-        color: #000000;
+        color: rgba(255, 255, 255, 0.7);
     }
 }
 
+@media (max-width: 767.67px){
+.ftco-search .nav-pills .nav-link {
+        color: #000000;
+    }
+}
 
 
 .ftco-search .tab-content {
@@ -552,7 +561,12 @@ label {
   }
  
 }
-
+.package-text{
+  margin-left:15px;
+  margin-top:50px; 
+  width:98%;
+  background:#08c299;
+}
 
 /* article */
 
@@ -670,3 +684,57 @@ label {
   .teamParagraph{
       line-height: 3rem;
   }
+
+  /* Booking */
+
+   .ftco-section .col-md-3 .box .form-control.btn.btn-primary{
+    background-color:#f1a842 !important;
+    border: 1px solid #f1a842 !important;
+    color: #fff !important;
+  }
+
+
+  .ftco-section .col-md-5{
+    background: #000000;
+    display: block;
+  }
+
+  .ftco-section .col-md-3 .box{
+    background: #000000;
+    display: block;
+  }
+
+  .ftco-section .col-md-4 .box{
+    background: #000000;
+    display: block;
+  }
+
+.ftco-section .col-md-3 .box .payment{
+    line-height: 1.4;
+    color: #fff;
+
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+  }
+
+  .ftco-section .col-md-4 .box .cartTotal{
+    line-height: 1.4;
+    color: #fff;
+
+    font-weight: 400;
+    font-family: "Josefin Sans", Arial, sans-serif;
+  }
+ 
+
+.ftco-section .col-md-4 .box .d-flex span{
+  display: block;
+  width:50%; 
+}
+
+
+.unstyled::-webkit-inner-spin-button,
+.unstyled::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+

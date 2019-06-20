@@ -51,6 +51,9 @@ speak:none;
 .icon-heart:before {
   content: "\f004";
 }
+.ion-ios-arrow-down:before {
+    content: "\f3d0";
+}
 .icon-star:before {
   
   content: "\f005";

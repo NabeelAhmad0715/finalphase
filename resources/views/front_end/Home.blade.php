@@ -21,8 +21,8 @@
     </section>
 
     <!-- Destination Packages -->
-        <section class="ftco-section">
-    	<div class="container">
+        <section>
+    	<div class="package-text">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center">
             <h2 class="mb-4">Most Popular Destination</h2>
@@ -31,7 +31,7 @@
     	</div>
     	<div class="container-fluid">
     		<div class="row">
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/destination-1.jpg);">
     						
@@ -63,7 +63,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination d-md-flex flex-column-reverse">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/destination-2.jpg);">
     						
@@ -95,7 +95,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/destination-3.jpg);">
     					
@@ -127,7 +127,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination d-md-flex flex-column-reverse">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/destination-4.jpg);">
     						
@@ -164,8 +164,8 @@
     </section>
 	
     <!-- Hotel Packages -->
- <section class="ftco-section">
-    	<div class="container">
+ <section>
+    	<div class="package-text">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center">
             <h2 class="mb-4">Most Popular Hotels</h2>
@@ -174,7 +174,7 @@
     	</div>
     	<div class="container-fluid">
     		<div class="row">
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-1.jpg);">
     						
@@ -206,7 +206,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination d-md-flex flex-column-reverse">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-2.jpg);">
     						
@@ -238,7 +238,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-3.jpg);">
     					
@@ -270,7 +270,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination d-md-flex flex-column-reverse">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-4.jpg);">
     						
@@ -305,9 +305,12 @@
          
     		</div>
     	</div>
-    </section>
-	<section class="ftco-section">
-    	<div class="container">
+		</section>
+		
+		<!-- Car Rentals -->
+
+	<section>
+    	<div class="package-text">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center">
             <h2 class="mb-4">Car Rentals</h2>
@@ -316,7 +319,7 @@
     	</div>
     	<div class="container-fluid">
     		<div class="row">
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-1.jpg);">
     						
@@ -348,7 +351,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination d-md-flex flex-column-reverse">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-2.jpg);">
     						
@@ -380,7 +383,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-3.jpg);">
     					
@@ -412,7 +415,7 @@
     					</div>
     				</div>
     			</div>
-    			<div class="col-sm col-md-6 col-lg ftco-animate">
+    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination d-md-flex flex-column-reverse">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-4.jpg);">
     						
@@ -461,16 +464,12 @@
         <div class="row d-flex">
           <div class="col-md-4 d-flex">
             <div class="blog-entry align-self-stretch">
-              <a href="#" class="block-20" style="background-image: url('./img/image_1.jpg');">
+              <a href="{!! url('https://sundaytripyogyakarta.com/info-wisata/8-best-homestay-philippines-you-dont-miss/') !!}" class="block-20" style="background-image: url('./img/image_1.jpg');">
               </a>
               <div class="text">
-              	<span class="tag">Tips, Travel</span>
-                <h3 class="heading mt-3"><a href="#" style="text-decoration:none;">8 Best homestay in Philippines that you don't miss out</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">October 3, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
+              	<span class="tag">Travel</span>
+                <h3 class="heading mt-3"><a href="{!! url('https://sundaytripyogyakarta.com/info-wisata/8-best-homestay-philippines-you-dont-miss/') !!}" style="text-decoration:none;">8 Best homestay in Philippines that you don't miss out</a></h3>
+                
               </div>
             </div>
           </div>
@@ -480,27 +479,19 @@
               </a>
               <div class="text">
               	<span class="tag">Culture</span>
-                <h3 class="heading mt-3"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">October 3, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
+                <h3 class="heading mt-3"><a href="{!! url('https://www.travel-culture.com/ob/') !!}" style="text-decoration:none;">Culture Trip is the place to go to get inspired about the world's culture and creativity</a></h3>
+                
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex">
-            <div class="blog-entry align-self-stretch">
+            <div class="blog-entry align-self-stretch w-100">
               <a href="#" class="block-20" style="background-image: url('./img/image_3.jpg');">
               </a>
               <div class="text">
-              	<span class="tag">Tips, Travel</span>
-                <h3 class="heading mt-3"><a href="#" style="text-decoration:none;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">October 3, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
+              	<span class="tag">Tips</span>
+                <h3 class="heading mt-3"><a href="{!! url('https://www.travelzoo.com/blog/20-tips-before-traveling-internationally/') !!}" style="text-decoration:none;">Tips Before Traveling Internationally</a></h3>
+                
               </div>
             </div>
           </div>
