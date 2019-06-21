@@ -25,7 +25,7 @@
     	<div class="package-text">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center">
-            <h2 class="mb-4">Most Popular Destination</h2>
+            <h2 class="mb-4"><strong>Most Popular Destination</strong></h2>
           </div>
         </div>    		
     	</div>

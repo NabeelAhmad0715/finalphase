@@ -43,7 +43,7 @@
 
         <!-- Header -->
         
-      <header >
+      <header style="position:fixed;z-index:999;" id="navbar" >
        
       <a href="{{url('Home')}}" class="logo" style="text-decoration:none;">Travely</a>
         <div class="menu-toggle ">
@@ -52,7 +52,7 @@
         <nav class="d-n ftco-navbar-light" style="z-index:9;">
           <ul class="ml-auto navmenu"  >
               <ul >
-              <li class="nav-item"><a href="{{url('Home')}}" class="nav-ink" style="text-decoration:none;">HOME</a></li>
+              <li class="nav-item"><a href="{{url('Home')}}" style="text-decoration:none;">HOME</a></li>
               <li class="nav-item"><a href="{{url('about')}}" style="text-decoration:none;">ABOUT</a></li> 
               <li class="nav-item"><a href="{{url('genericPackages')}}"  style="text-decoration:none;">PACKAGES</a></li>
               <li class="nav-item"><a href="{{url('contact')}}" style="text-decoration:none;">CONTACT</a></li> 
@@ -60,7 +60,7 @@
               
               <ul>
                 
-              <li class="nav-item cart"><a style="text-decoration:none;color:white;"  href="{{url('booking')}}"><img style="height:90%;"src="./img/shopping-cart1.png"></a></li>
+              <li class="nav-item cart"><a style="text-decoration:none;color:white;"  href="{{url('booking')}}"><img src="./img/shopping-cart1.png"></a></li>
               <li class="nav-item"><a href="{{url('Login')}}" class="l-s"><i>LOGOUT</i></a></li>
             </ul>
           </ul>
@@ -74,15 +74,7 @@
   
      
 <!-- Text -->
-		<!--<div>
-      <div class="container">
-        <div class="row slider-text  align-items-center justify-content-start" >
-          <div class="col-md-12 mb-5 pb-5 text-center text-md-left textRight">
-            
-          </div>
-        </div>
-      </div>
-    </div>-->
+		
       <span class="text-center" style="position:absolute;top:200px;margin:auto;width: 100%;padding: 10px;">
           <h1 class="mb-4" style="font-family: Abril Fatface, cursive; font-size:5rem;" ><span style="color:#fff;">Discover</span> <br><span style="color:#fff;" >A new Place</span></h1>
           <p style="color:#fff;">Find great places to stay, eat, shop, or visit from local experts</p>
@@ -265,7 +257,22 @@
 
 
       </script>
+      <script>
+          window.onscroll = function() {scrollFunction()};
 
+          function scrollFunction() {
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+              document.getElementById("navbar").style.background = "#000";
+              document.getElementById("navbar").style.top = "0px";
+              document.getElementById("navbar").style.transition = "all ease-in-out 0.5s";
+            } else {
+              document.getElementById("navbar").style.background = "transparent";
+              document.getElementById("navbar").style.top = "20px";
+              document.getElementById("navbar").style.transition = "all ease-in-out 0.5s";
+            }
+          }
+        </script>
 
 </body>
+
 </html>

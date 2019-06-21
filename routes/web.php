@@ -36,6 +36,7 @@ Route::get('/forgotPassword','frontEnd\IndexController@forgot');
 Route::get('/about','frontEnd\IndexController@aboutUS');
 Route::get('/contact','frontEnd\IndexController@contactUs');
 Route::get('/booking','frontEnd\IndexController@booking');
+Route::get('/checkOutOrder','frontEnd\IndexController@checkOutOrder');
 
 
 

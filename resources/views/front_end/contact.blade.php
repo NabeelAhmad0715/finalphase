@@ -7,7 +7,7 @@
 @section('content')
   <section>
       <div class="container">
-          <div class="col-lg-6 ">
+          <div class="col-lg-6">
             <h3 class="heading center"> Contact Us </h3>
             <form>
                 <div class="fields">

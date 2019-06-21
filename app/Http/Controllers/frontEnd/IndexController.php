@@ -21,6 +21,10 @@ class IndexController extends Controller
         return view('front_end.booking');
     }
 
+    public function checkOutOrder(){
+        return view('front_end.checkoutOrder');
+    }
+
      public function login(){
         return view('front_end.login');
     }
