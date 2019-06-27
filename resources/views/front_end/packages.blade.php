@@ -18,18 +18,18 @@
                         <input type="text" class="form-control" placeholder="Current Location" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')" placeholder="Date from" required>
+                        <input type="text" class="form-control"  id="packageCheckIn" placeholder="Date from" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')" placeholder="Date to" required>
+                        <input type="text" class="form-control"  id="packageCheckOut" placeholder="Date to" required>
                     </div>
                     <div class="form-group">
                         <select class="form-control">
-                            <option value="">5000 > 9999</option>
-                            <option value="">10000 > 14999</option>
-                            <option value="">15000 > 19999</option>
-                            <option value="">20000 > 24999</option>
-                            <option value="">25000 ></option>
+                            <option value="">$50 > $99</option>
+                            <option value="">$100 > $1499</option>
+                            <option value="">$1500 > $1999</option>
+                            <option value="">$2000 > $2499</option>
+                            <option value="">$2500 ></option>
                         </select>
                     </div>
                     <div class="form-group">

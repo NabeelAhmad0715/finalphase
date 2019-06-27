@@ -44,8 +44,8 @@
                                         <div class="form-group">
                                           <label for="#">Check In</label>
                                           <div class="form-field">
-                                            <div class="icon"><span class="icon-calendar"></span></div>
-                                            <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
+                                            <div class="icon" ><span class="icon-calendar"></span></div>
+                                            <input type="text" class="form-control"  id="flightCheckIn" placeholder="Check in" required>
                                           </div>
                                         </div>
                                       </div>
@@ -54,7 +54,7 @@
                                           <label for="#">Check Out</label>
                                           <div class="form-field">
                                             <div class="icon"><span class="icon-calendar"></span></div>
-                                            <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="From" required>
+                                            <input type="text" class="form-control"  id="flightCheckOut" placeholder="From" required>
                                           </div>
                                         </div>
                                       </div>
@@ -64,14 +64,15 @@
                                         <div class="form-field">
                                           <div class="select-wrap">
                                             <div class="icon"><span class="icon-person"></span></div>
-                                            <select name="" id="" class="form-control" required>
+                                            <input type="number" class="form-control" min="1" max="100" required>
+                                            <!-- <select name="" id="" class="form-control" required>
                                               <option value="">0</option>
                                               <option value="">1</option>
                                               <option value="">2</option>
                                               <option value="">3</option>
                                               <option value="">4</option>
                                               <option value="">5</option>
-                                            </select>
+                                            </select> -->
                                           </div>
                                         </div>
                                       </div>
@@ -95,7 +96,7 @@
                                       <label for="#">Check In</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-calendar"></span></div>
-                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
+                                        <input type="text" class="form-control" id="hotelCheckIn"  placeholder="Check In" required>
                                       </div>
                                     </div>
                                   </div>
@@ -104,7 +105,7 @@
                                       <label for="#">Check Out</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-calendar"></span></div>
-                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')" placeholder="From" required>
+                                        <input type="text" class="form-control"  id="hotelCheckOut" placeholder="From" required>
                                       </div>
                                     </div>
                                   </div>
@@ -154,7 +155,7 @@
                                       <label for="#">Check In</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-calendar"></span></div>
-                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
+                                        <input type="text" class="form-control"  id="carCheckIn" placeholder="Check In" required>
                                       </div>
                                     </div>
                                   </div>
@@ -163,7 +164,7 @@
                                       <label for="#">Check Out</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-calendar"></span></div>
-                                        <input type="text" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="From" required>
+                                        <input type="text" class="form-control"  id="carCheckout" placeholder="From" required>
                                       </div>
                                     </div>
                                   </div>
@@ -217,4 +218,36 @@
             </div>       
        </section>
 
+       
+        <script>
+           $(document).ready(function () {
+             $('#flightCheckIn').datepicker({
+               minDate: 0,
+             });
+
+             $('#flightCheckOut').datepicker({
+               minDate: +1,
+             });
+
+             $('#hotelCheckIn').datepicker({
+               minDate: 0,
+             });
+             $('#hotelCheckOut').datepicker({
+               minDate: +1,
+             });
+             $('#carCheckIn').datepicker({
+               minDate: 0,
+             });
+             $('#carCheckout').datepicker({
+               minDate: 0,
+             });
+             $('#packageCheckIn').datepicker({
+               minDate: 0,
+             });
+             $('#packageCheckout').datepicker({
+               minDate: 0,
+             });
+
+           });
+  </script>
 @endsection

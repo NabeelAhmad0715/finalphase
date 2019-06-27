@@ -24,7 +24,7 @@
                         <h3 class="payment">PAYMENT METHOD</h3>
 
                         <div class="form-group">
-                              <input  type="radio" name="Payment" value="paypal" class="mr-2"><span style="color:#000;padding-left:5px;" >Paypal</span>
+                              <input  type="radio" name="Payment" value="paypal" id="paypal" class="mr-2"><span style="color:#000;padding-left:5px;" >Paypal</span>
                         </div>
                         
                         <div class="form-group">
@@ -113,7 +113,22 @@
                           </p>
 
                            <div class="form-group order">
-                                    <input type="submit"  style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="BOOK NOW">
+                                    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                                          <input type="hidden" name="cmd" value="_cart">
+                                          <input type="hidden" name="upload" value="1">
+                                          <input type="hidden" name="business" value="blockchain69.007@gmail.com.com">
+
+                                          <input type="hidden" name="item_name_1" value="Name1">
+                                          <input type="hidden" name="amount_1" value="5.00">
+                                          <input type="hidden" name="shipping_1" value="0.30">
+                                          
+                                          <input type="hidden" name="item_name_2" value="Name2">
+                                          <input type="hidden" name="amount_2" value="6.00">
+                                          <input type="hidden" name="shipping_2" value="0.50">
+                                           <input type="hidden" name="cancel_return" id="cancel_return" value="http://localhost:8000/checkOutOrder" />
+                                           <input type="hidden" name="return" id="return" value="http://localhost:8000/thankyou" />
+                                          <input type="submit" id="paypalId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="BOOK NOW">
+                                    </form>
                             </div>
                          </div>   
                         	
@@ -123,5 +138,15 @@
       </div>
   </div> 
 
+<script>
+  $('#paypalId').hide();
+          //  $('#cashbtn').hide();
+            $(':radio[id=paypal]').change(function(){
+                $('#paypalId').show();
+               
+            });
+              
+
+</script>
  
 @endsection

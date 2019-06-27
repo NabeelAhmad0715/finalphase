@@ -26,6 +26,7 @@
     border: 1px solid #f9be37 !important;
     color: #fff !important;
 }
+
 .rate1{
     margin-left:25px;
 }
@@ -43,6 +44,7 @@
 
 
 /* Packages */
+
 
 .box{
 
@@ -67,9 +69,10 @@
   }
 }
 
+
 .box div .hotelInfo li {
   list-style: none;
-  margin-left: -20px;
+  
   margin-top: -11px;
   margin-bottom:15px;
 }
@@ -106,7 +109,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   .box div img{
     margin-bottom: 30px;
     width: 100%;
-    margin-left: -20px;
+    
   }
 }
 
@@ -117,9 +120,60 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   .box div img{
     margin-bottom: 30px;
     width: 100%;
-    margin-left: -20px;
+   
   }
 }
 
+/* Package Details */
 
 
+
+
+.hotel-single h2 {
+  font-size: 34px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+
+.hotel-single h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px; }
+
+.hotel-single .loc {
+  margin-right: 10px; }
+  .hotel-single .loc a {
+    color: #999999; }
+
+.hotel-single .star i {
+  color: #f9be37; }
+  .hotel-single .loc i {
+  color: #f9be37; }
+  
+  .hotel-single div ul li,
+  .hotel-single .details {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 2.4;
+    font-weight: 300;
+    color: #666666;
+    list-style: none;
+  }
+  .hotel-single img.icon{
+    width:30px;
+ 
+  
+  }
+  .hotel-single ul li{
+    list-style: none;
+    margin:10px;
+  }
+  .hotel-single .hotel-text{
+    
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 2.4;
+    font-weight: 300;
+    color: #000;
+  }

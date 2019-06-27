@@ -34,6 +34,8 @@ class packageController extends Controller
      public function flightInsurance(){
         return view('front_end.flightInsurance');
     }
-
+    public function details(){
+        return view('front_end.packageDetails');
+    }
  
 }

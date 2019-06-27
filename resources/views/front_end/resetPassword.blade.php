@@ -14,7 +14,7 @@
                     <div class="row">
                         <div class="col-md-8" style="margin-top:120px; box-shadow: 1px -1px 50px 10px;">
                             <ul>
-                                <a href="{{url('Login')}}" style="border-bottom:2px solid #f9be37; padding:10px;">Sign In</a>
+                                <a href="{{url('Login')}}" >Sign In</a>
                                 <a href="{{url('Signup')}}" >/ Sign up</a>
                             </ul>   
                                 <div class="box">

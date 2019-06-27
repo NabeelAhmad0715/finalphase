@@ -12,10 +12,15 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/travelyindexContent.css">
     <link rel="stylesheet" href="./css/packages.css">
+    <link rel="stylesheet" href="./css/animate.css">
       <script src="./js/popper.min.js"></script>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/scrollax.min.js"></script>
 
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
 
 
@@ -33,24 +38,26 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
   <!-- jQuery library -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>  -->
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>  -->
 
   <!-- Latest compiled JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body >
+<body  id="scroll">
 
         <!-- Header -->
         
       <header style="position:fixed;z-index:999;" id="navbar" >
        
       <a href="{{url('Home')}}" class="logo" style="text-decoration:none;">Travely</a>
-        <div class="menu-toggle ">
+        <div class="menu-toggle" id="scrollnavbar">
         															
         </div>
-        <nav class="d-n ftco-navbar-light" style="z-index:9;">
-          <ul class="ml-auto navmenu"  >
+        <nav class="d-n ftco-navbar-light smallnavbar" style="z-index:9;">
+          <ul class="ml-auto navmenu scroll_y">
               <ul >
               <li class="nav-item"><a href="{{url('Home')}}" style="text-decoration:none;">HOME</a></li>
               <li class="nav-item"><a href="{{url('about')}}" style="text-decoration:none;">ABOUT</a></li> 
@@ -261,7 +268,7 @@
           window.onscroll = function() {scrollFunction()};
 
           function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
               document.getElementById("navbar").style.background = "#000";
               document.getElementById("navbar").style.top = "0px";
               document.getElementById("navbar").style.transition = "all ease-in-out 0.5s";
@@ -272,7 +279,17 @@
             }
           }
         </script>
+<script>
 
+         
+
+          $(document).ready(function(){
+          $(".menu-toggle").click(function(){
+            $("#scroll").toggleClass("stopScrolling");
+          });
+        });
+
+</script>
 </body>
 
 </html>

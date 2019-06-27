@@ -31,7 +31,7 @@
     	</div>
     	<div class="container-fluid">
     		<div class="row">
-    			<div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
+    			<div  class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/destination-1.jpg);">
     						
