@@ -7,12 +7,10 @@
     <title>login</title>
 </head>
 <body >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-8" style="margin-top:120px; box-shadow: 1px -1px 50px 10px;">
+        <div class="home-container">
+      
+              
+                <div class="col-lg-4 col-md-6 col-sm-10 mx-auto box-shadow">
                             <ul >
                                 <a  href= "{{url('Login')}}" >Sign In</a>
                                 <a  href="{{url('Signup')}}" >/ Sign up</a>
@@ -37,12 +35,6 @@
                                </div>
                             
                         </div>
-                        <div class="col-md-4">
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
         </div>
 </body>
 </html>

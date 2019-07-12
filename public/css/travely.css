@@ -24,12 +24,47 @@ ul a:hover{
     color: #fff;
 }
 
+.home-container{
+    position:absolute;
+    top:50px;
+    margin:auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.home-container .box-shadow{
+    box-shadow: 1px -1px 50px 10px;
+}
+
+.home-container .box-shadow .web-name{
+    color:#f9be37;
+}
+
+.signin{
+    border-bottom:2px solid #f9be37; 
+    padding:10px;
+}
+
+.white{
+    color:white;
+}
 .box{
 
     top: 20px;
     padding: 23px;
     box-sizing: border-box;
     border-radius: 10px;
+}
+.box form .s-login{
+    color:#fff;
+}
+
+.inner:hover{
+    color:#f9be37;
+}
+.inner{
+    color:#f9be37;
+    text-decoration:none !important;
 }
 .box h2{
     margin: 0 0 30px;

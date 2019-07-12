@@ -1,25 +1,25 @@
 @section('customPackage')
   <div class="header-img" style="background-image: url('/img/bg_1.jpg');height: 722px;">
        </div>
-<section class="footer-section justify-content-end ftco-search">
+    <section class="footer-section justify-content-end ftco-search">
           <div class="container-wrap">
-            <div class="box-center no-gutters">
+            <div class="box-center">
                 <div class="col-md-12 nav-link-wrap">
-                    <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                      <a style="text-decoration:none;" class="nav-link active" id="v-pills-1-tab" aria-controls="v-pills-1" data-toggle="pill" href="#v_pills_1" role="tab"  aria-selected="true">Flight</a>
+                    <div class="nav nav-pills justify-content-center text-center" id="v-pills-tab"  aria-orientation="vertical">
+                      <a href="{{url('/flights')}}" style="text-decoration:none;" class="nav-link active" id="v-pills-1-tab"   >Flight</a>
 
-                      <a style="text-decoration:none;" class="nav-link " id="v-pills-2-tab" data-toggle="pill" aria-controls="v-pills-2" href="#v_pills_2" role="tab"  aria-selected="false">Hotel</a>
+                      <a style="text-decoration:none;" class="nav-link " href="{{url('/hotels')}}" >Hotel</a>
 
-                      <a style="text-decoration:none;" class="nav-link " id="v-pills-3-tab" data-toggle="pill" href="#v_pills_3" aria-controls="v-pills-3" role="tab"  aria-selected="false">Car</a>
+                      <a style="text-decoration:none;" class="nav-link " href="{{url('/rentals')}}" >Car</a>
 					  
-					            <a style="text-decoration:none;" class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v_pills_4" role="tab" aria-controls="v-pills-4" aria-selected="false">Travel Insurance</a>
+					            <a style="text-decoration:none;" class="nav-link" href="{{url('/insurances')}}" >Travel Insurance</a>
                     
 					
 					</div>
                   </div>
                   <div class="col-md-12 tab-wrap">
                     <div class="tab-content p-4 px-5" id="v-pills-tabContent">
-                        <div class="tab-pane  active" id="v_pills_1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab"> 
+                        <div class="tab-pane  active" id="v_pills_1" > 
                             <form action="{{url('/flightPackages')}}" class="search-destination">
                                 <div class="row">
                                     <div class="col-md align-items-end">
@@ -88,8 +88,8 @@
                             </form>
                             </div>
                             
-                            <div class="tab-pane" id="v_pills_2" role="tabpanel"  aria-labelledby="v-pills-performance-tab">
-                              <form action="{{url('/hotelPackages')}}" class="search-destination">
+                            <div class="tab-pane" id="v_pills_2">
+                              <form action="{{url('/hotelPackages')}}" id="hotelSearch" class="search-destination">
                                 <div class="row">
                                   <div class="col-md align-items-end">
                                     <div class="form-group">
@@ -138,7 +138,7 @@
                               </form>
                             </div>
 
-                            <div class="tab-pane " id="v_pills_3" role="tabpanel" aria-labelledby="v-pills-effect-tab">
+                            <div class="tab-pane" id="v_pills_3" >
                               <form action="{{url('/carRentalPackages')}}" class="search-destination">
                                 <div class="row">
                                   <div class="col-md align-items-end">
@@ -180,7 +180,7 @@
                             </div>
 							
 							
-							                <div class="tab-pane " id="v_pills_4" role="tabpanel" aria-labelledby="v-pills-effect-tab">
+							                <div class="tab-pane " id="v_pills_4">
                               <form action="{{url('/travelInsurance')}}" class="search-destination">
                                 <div class="row">
                                   <div class="col-md align-items-end">
@@ -220,7 +220,7 @@
 
        
         <script>
-           $(document).ready(function () {
+           $(function () {
              $('#flightCheckIn').datepicker({
                minDate: 0,
              });
@@ -250,4 +250,5 @@
 
            });
   </script>
+
 @endsection

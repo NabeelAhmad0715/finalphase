@@ -11,8 +11,7 @@
     border: 2px solid #F6732B;
      /* box-shadow: 10px 10px 50px 0px rgba(0,0,0,0.5);  */
 }
-#heading2{
-}
+
 #heading2>h2{
     display: inline-block;
     font-size: 25px;

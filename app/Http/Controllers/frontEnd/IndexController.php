@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 class IndexController extends Controller
 {
     
-  
+
     public function aboutUs(){
         return view('front_end.about');
     }

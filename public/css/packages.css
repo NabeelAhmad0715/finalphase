@@ -56,18 +56,12 @@
 
 .box img{
   width:100%;
-  height: 110%;
+  height: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-@media(max-width:767.98px){
-  .col-md-3{
-    width: 100%;
-    margin-left: -10px;
-  }
-}
 
 
 .box div .hotelInfo li {
@@ -85,6 +79,50 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
+.box div .hotelInfo li a .name{
+  color:grey;
+}
+
+.box div .hotelInfo li a .name .review{
+  color: #0087f5;
+}
+
+.box div .hotelInfo li .number{
+  color:grey; 
+  font-size:20px;
+}
+.box div .hotelInfo li .number .web-name{
+  margin-left:20px;
+  color:black;
+}
+
+.box div .hotelInfo li .number .web-name .price{
+  font-weight:bold; 
+  font-size:30px;
+  color: #262626;
+
+}
+
+.box div .hotelInfo li .details{
+  color:#000; 
+  font-size:14px;
+}
+
+.box div .hotelInfo li .details .icon{
+  font-size:30px;
+  color:grey;
+}
+
+.box div .hotelInfo li .details .icon .services{
+ color: #262626;
+ margin-top:4px;
+}
+
+.box div .hotelInfo li a .cart{
+ width:30%; 
+ background:#f9be37; 
+ color:#fff;
+}
 
 
 .right{
@@ -107,7 +145,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   max-width: 100%;
 }
   .box div img{
-    margin-bottom: 30px;
     width: 100%;
     
   }
@@ -118,7 +155,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       max-width:100%;
   }
   .box div img{
-    margin-bottom: 30px;
     width: 100%;
    
   }

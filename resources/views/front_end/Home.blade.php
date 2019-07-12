@@ -7,10 +7,10 @@
       <div class="container-fluid">
           <div class="row">
 						<div class="col-md-12">
-								<div class="col-md-6">
+								<div class="col-lg-6 col-md-12 mx-auto">
 											<img  class="agency-img" src="./img/about.jpg">
 								</div>
-								<div class="col-md-6">
+								<div class="col-lg-6 col-sm-12 mx-auto">
 														<h2 class="Agency-text">The Best Travel Agency</h2>
 														<p class="paragraph">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
 									</div>
@@ -21,7 +21,7 @@
     </section>
 
     <!-- Destination Packages -->
-        <section>
+        <section class="ftco-section">
     	<div class="package-text">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center">
@@ -31,7 +31,7 @@
     	</div>
     	<div class="container-fluid">
     		<div class="row">
-    			<div  class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
+    			<div  class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto">
     				<div class="destination">
     					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/destination-1.jpg);">
     						

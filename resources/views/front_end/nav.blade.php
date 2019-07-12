@@ -5,20 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Navigation</title>
-    
+
     <link rel="stylesheet" href="./css/travelyHeader.css">
     <link rel="stylesheet" href="./css/travelyFooter.css">
     <link rel="stylesheet" href="./css/icomoon.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/travelyindexContent.css">
     <link rel="stylesheet" href="./css/packages.css">
-    <link rel="stylesheet" href="./css/animate.css">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <script src="./js/popper.min.js"></script>
         <script src="./js/jquery.min.js"></script>
-        <script src="./js/scrollax.min.js"></script>
 
+         <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+      
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
+ 
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
@@ -26,77 +35,98 @@
 
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-   
+
+
 
     <!-- Popper JS -->
      <script src="./js/bootstrap.js"></script>
      <script src="./js/bootstrap.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    
+
    <!-- Latest compiled and minified CSS -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
-  <!-- jQuery library -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>  -->
-      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>  -->
+ 
 
   <!-- Latest compiled JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+.loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('./img/238.gif') no-repeat center center;
+            background-color: #fff;
+        }
+        
+</style>
+
 </head>
 <body  id="scroll">
 
+<div class="loader" ></div>
+
+
         <!-- Header -->
-        
-      <header style="position:fixed;z-index:999;" id="navbar" >
-       
-      <a href="{{url('Home')}}" class="logo" style="text-decoration:none;">Travely</a>
+
+      <header id="navbar" >
+
+      <a href="{{url('Home')}}" class="logo" style="text-decoration:none;color:#fff!important;">Travely</a>
         <div class="menu-toggle" id="scrollnavbar">
-        															
+
         </div>
-        <nav class="d-n ftco-navbar-light smallnavbar" style="z-index:9;">
+        <nav class="d-n ftco-navbar-light smallnavbar">
           <ul class="ml-auto navmenu scroll_y">
-              <ul >
-              <li class="nav-item"><a href="{{url('Home')}}" style="text-decoration:none;">HOME</a></li>
-              <li class="nav-item"><a href="{{url('about')}}" style="text-decoration:none;">ABOUT</a></li> 
-              <li class="nav-item"><a href="{{url('genericPackages')}}"  style="text-decoration:none;">PACKAGES</a></li>
-              <li class="nav-item"><a href="{{url('contact')}}" style="text-decoration:none;">CONTACT</a></li> 
-              </ul>
-              
               <ul>
-                
-              <li class="nav-item cart"><a style="text-decoration:none;color:white;"  href="{{url('booking')}}"><img src="./img/shopping-cart1.png"></a></li>
-              <li class="nav-item"><a href="{{url('Login')}}" class="l-s"><i>LOGOUT</i></a></li>
+              <li class="nav-item anchor"><a href="{{url('Home')}}" >HOME</a></li>
+              <li class="nav-item anchor"><a href="{{url('about')}}" >ABOUT</a></li>
+              <li class="nav-item anchor"><a href="{{url('genericPackages')}}"  >PACKAGES</a></li>
+              <li class="nav-item anchor"><a href="{{url('contact')}}">CONTACT</a></li>
+              </ul>
+
+              <ul>
+
+              <li class="nav-item cart"><a href="{{url('booking')}}"><img src="./img/shopping-cart1.png"></a></li>
+              <li class="nav-item"><a href="{{url('Login')}}" class="l-s"><i>LOGOUT</i></a></li>             
             </ul>
           </ul>
-        </nav>  
+        </nav>
 
-        
 
-    
-      </header> 
 
-  
-     
+
+      </header>
+
+
+
 <!-- Text -->
-		
-      <span class="text-center" style="position:absolute;top:200px;margin:auto;width: 100%;padding: 10px;">
-          <h1 class="mb-4" style="font-family: Abril Fatface, cursive; font-size:5rem;" ><span style="color:#fff;">Discover</span> <br><span style="color:#fff;" >A new Place</span></h1>
-          <p style="color:#fff;">Find great places to stay, eat, shop, or visit from local experts</p>
-      </span> 
+
+      
+
+      <span class="text-center pic-text">
+          <h1 class="mb-4 inner-text"><span class="white">Discover</span> <br><span class="white">A new Place</span></h1>
+          <p class="white">Find great places to stay, eat, shop, or visit from local experts</p>
+      </span>
       <!-- Content -->
        @yield('customPackage')
+         @yield('hotels')
+    @yield('flights')
+    @yield('rentals')
+    @yield('insurances')
     <!-- Home -->
-    
+
     @yield('travelagency')
-		
+   
+
 		@yield('content')
 
 
     <!-- Footer -->
-     
+
 <div class="footer-wrapper">
   <div class="top-img"></div>
   <div class="container-fluid">
@@ -177,7 +207,7 @@
                      <li><a href="#">Insurances</a></li>
                       <li><a href="#">abc</a></li>
                        <li><a href="#">Contact Us</a></li>
-                       
+
               </ul>
             </div>
           </div>
@@ -195,7 +225,7 @@
                      <li><a href="#">HoneyMoon Packages</a></li>
                       <li><a href="#">SEX Package</a></li>
                        <li><a href="#">Fuck Package</a></li>
-                       
+
               </ul>
             </div>
           </div>
@@ -247,17 +277,24 @@
               })
             })
 
-            
-      </script>
 
+      </script>
+<script>
+    window.onload = function() 
+    {
+        //display loader on page load 
+        $('.loader').fadeOut();
+    }
+
+</script>
       <script type="text/javascript">
-      
-         
+
+
           $(document).ready(function() {
-        var url = window.location; 
+        var url = window.location;
         var element = $('nav ul li a').filter(function() {
         return this.href == url || url.href.indexOf(this.href) == 0; }).parent().addClass('active');
-        if (element.is('li')) { 
+        if (element.is('li')) {
              element.addClass('active').parent().parent('li').addClass('active')
          }
     });
@@ -268,7 +305,7 @@
           window.onscroll = function() {scrollFunction()};
 
           function scrollFunction() {
-            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
               document.getElementById("navbar").style.background = "#000";
               document.getElementById("navbar").style.top = "0px";
               document.getElementById("navbar").style.transition = "all ease-in-out 0.5s";
@@ -281,7 +318,14 @@
         </script>
 <script>
 
-         
+function hideLoader() {
+    $('#loading').hide();
+}
+
+$(window).ready(hideLoader);
+
+// Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+setTimeout(hideLoader, 20 * 1000);
 
           $(document).ready(function(){
           $(".menu-toggle").click(function(){

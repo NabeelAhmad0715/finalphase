@@ -5,7 +5,7 @@
 @endsection
 @section('content')
  <!-- Travel Agency -->
-    <section style="margin-bottom:20px;" class="about_index1">
+    <section  class="about_index1">
       <div class="container-fluid">
           <div class="row">
 						<div class="col-md-12">
@@ -21,6 +21,9 @@
           </div>
       </div>
     </section>
+
+    <!-- Crousel -->
+   
 	<!-- Team -->
  <div>
       <div class="container">
@@ -64,5 +67,7 @@
       </div>
     </div>
 
+
+ 
  
 @endsection

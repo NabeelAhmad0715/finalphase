@@ -23,7 +23,7 @@ class MailController extends Controller
          $name = str_random(8);
         
             
-        Mail::to($email)->send(  new SendEmail("{$name} is your Travely account recovery code","Hi Nabeel, is your Facebook account recovery code:{$name}"));
+        Mail::to($email)->send(  new SendEmail("{$name} is your Travely account recovery code","Hi Nabeel, is your Travely account recovery code:{$name}"));
         Session::flash("Success","Send Email");
         return redirect()->action('frontEnd\IndexController@code');
     }

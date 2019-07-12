@@ -7,18 +7,16 @@
     <title>login</title>
 </head>
 <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-8" style="margin-top:70px; box-shadow: 1px -1px 50px 10px;">
+        <div class="home-container">
+      
+              
+                <div class="col-lg-4 col-md-6 col-sm-10 mx-auto box-shadow">
                             <ul>
                                 <a href="{{url('Login')}}" >Sign In</a>
                             </ul>   
                                 <div class="box">
                                     
-                                    <h2 style="color:#f9be37">Travely</h2>
+                                    <h2 class="web-name">Travely</h2>
                                     <form action="{{url('Login')}}">
 
                                     
@@ -52,18 +50,12 @@
                                         </div>
                                         
                                         <input type="submit" value="Register"><br>
-                                        <a style="color:white;" href="{{url('Login')}}">Already have an account ?<span style="color:#f9be37"> Sign In</span></a>
+                                        <a class="s-login"href="{{url('Login')}}">Already have an account ?</a><a href="{{url('Login')}}" class="inner"> Sign In</a>
                                         
                                     </form>
                                </div>
                             
                         </div>
-                        <div class="col-md-4">
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
         </div>
 </body>
 </html>

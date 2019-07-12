@@ -19,28 +19,14 @@
 
             </div>
             <div class="col-md-12">
-          			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-                           
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
+          			<div class="w3-content w3-display-container">
+                    <img class="mySlides" src="img/room-4.jpg" style="width:100%">
+                    <img class="mySlides" src="img/room-1.jpg" style="width:100%">
+                    <img class="mySlides" src="img/room-2.jpg" style="width:100%">
+                    <img class="mySlides" src="img/room-3.jpg" style="width:100%">
 
-                            <div class="item active">
-                                <img src="./img/hotel-5.jpg"  style="width:100%;">
-                            </div>
-
-                            <div class="item ">
-                                <img src="./img/hotel-2.jpg"  style="width:100%;">
-                            </div>
-                            
-                            <div class="item">
-                                <img src="./img/hotel-3.jpg"  style="width:100%;">
-                            </div>
-
-                        </div>
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
                     </div>
 
                     <div class="col-md-12 hotel-single mt-4 mb-5 pl-0">
@@ -72,14 +58,14 @@
                         
                          <h4><b>Facilities</b></h4>
                          <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                                 <ul>
                                     <li><img class="icon" src="./img/parking.png">&nbsp <span class="hotel-text">Parking</span></li>
                                     <li><img class="icon" src="./img/no-smoking (1).png">&nbsp <span class="hotel-text">Non Smoking rooms</span></li>
                                     <li><img class="icon" src="./img/wifi.png">&nbsp <span class="hotel-text">Free Wifi</span></li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                                 <ul>
                                     <li><img class="icon" src="./img/room-service.png">&nbsp <span class="hotel-text">Room Services</span></li>
                                     <li><img class="icon" src="./img/alcoholic-drinks.png">&nbsp <span class="hotel-text">Alcoholic</span></li>
@@ -87,10 +73,180 @@
                                 </ul>
                             </div>
                          </div>
-                         
-                    </div>        
+                    </div>     
+
+                    <h4><b>Related Hotels</b></h4>
+                    <section>
+                            <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
+                                            <div class="destination">
+                                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-1.jpg);">
+                                                    
+                                                </a>
+                                                <div class="text p-3">
+                                                    <div class="d-flex">
+                                                        <div class="one">
+                                                            <h3><a href="#">Paris, Italy</a></h3>
+                                                            <p class="rate">
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star-o"></i>
+                                                                <span>8 Rating</span>
+                                                            </p>  
+                                                        </div>
+                                                        <div class="two">
+                                                            <span class="price per-price">$40<br><small>/night</small></span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                                    <p class="days"><span>2 days 3 nights</span></p>
+                                                    <hr>
+                                                    <p class="bottom-area d-flex">
+                                                    
+                                                        <span class="ml-auto"><a href="#" style="text-decoration:none;">Book Now </a></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
+                                            <div class="destination">
+                                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-2.jpg);">
+                                                    
+                                                </a>
+                                                <div class="text p-3">
+                                                    <div class="d-flex">
+                                                        <div class="one">
+                                                            <h3><a href="#">Paris, Italy</a></h3>
+                                                            <p class="rate">
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star-o"></i>
+                                                                <span>8 Rating</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="two">
+                                                            <span class="price per-price">$40<br><small>/night</small></span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                                    <p class="days"><span>2 days 3 nights</span></p>
+                                                    <hr>
+                                                    <p class="bottom-area d-flex">
+                                                        
+                                                        <span class="ml-auto"><a href="#" style="text-decoration:none;">Book Now </a></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
+                                            <div class="destination">
+                                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-3.jpg);">
+                                                
+                                                </a>
+                                                <div class="text p-3">
+                                                    <div class="d-flex">
+                                                        <div class="one">
+                                                            <h3><a href="#">Paris, Italy</a></h3>
+                                                            <p class="rate">
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star-o"></i>
+                                                                <span>8 Rating</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="two">
+                                                            <span class="price per-price">$40<br><small>/night</small></span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                                    <p class="days"><span>2 days 3 nights</span></p>
+                                                    <hr>
+                                                    <p class="bottom-area d-flex">
+                                                    
+                                                        <span class="ml-auto"><a href="#" style="text-decoration:none;">Book Now </a></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-10 mx-auto ftco-animate">
+                                            <div class="destination">
+                                                <a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(./img/hotel-4.jpg);">
+                                                    
+                                                </a>
+                                                <div class="text p-3">
+                                                    <div class="d-flex">
+                                                        <div class="one">
+                                                            <h3><a href="#">Paris, Italy</a></h3>
+                                                            <p class="rate">
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star"></i>
+                                                                <i class="icon-star-o"></i>
+                                                                <span>8 Rating</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="two">
+                                                        <span class="price per-price">$40<br><small>/night</small></span>
+                                                        </div>
+                                                    </div>
+                                                    <p>Far far away, behind the word mountains, far from the countries</p>
+                                                    <p class="days"><span>2 days 3 nights</span></p>
+                                                    <hr>
+                                                    <p class="bottom-area d-flex">
+                                                    
+                                                        <span class="ml-auto"><a href="#" style="text-decoration:none;">Book Now </a></span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                </div>
+                                
+                                    </div>
+                                </div>
+		</section>
             </div>
         </div>
     </div>
 
+
+<script>
+// var slideIndex = 1;
+// showDivs(slideIndex);
+
+// function plusDivs(n) {
+//   showDivs(slideIndex += n);
+// }
+
+// function showDivs(n) {
+//   var i;
+//   var x = document.getElementsByClassName("mySlides");
+//   if (n > x.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = x.length}
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";  
+//   }
+//   x[slideIndex-1].style.display = "block";  
+// }
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 @endsection

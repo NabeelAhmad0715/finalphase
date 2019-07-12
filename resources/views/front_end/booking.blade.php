@@ -14,7 +14,7 @@
 	    				<table class="table">
 						    <thead class="thead-primary">
 						      <tr>
-						        <th class="text-center"><a href="#" style="color:#000;text-decoration:none;"><span style="font-size:20px;" class="icon-delete"></span></a></th>
+						        <th class="text-center"><a href="#" ><span class="icon-delete"></span></a></th>
                     <th>&nbsp;</th>
 						        <th class="text-center">Name</th>
 						        <th class="text-center">Price</th>
@@ -76,38 +76,38 @@
             <div class="col-md-4" >
                    <div class="box p-4 md-5 ">
                       <h3 class="cartTotal mb-4">CART TOTAL</h3>
-                         <p class="d-flex mb-5" style="width:100%;">
+                         <p class="d-flex mb-5">
                               
-                                    <span style="color:#bfbfbf;padding-left:5px;font-size:15px;">subtotal</span>
+                                    <span >subtotal</span>
                               
                               
-                                    <span style="color:#bfbfbf;padding-left:5px; font-size:15px;">$20.60</span>
+                                    <span >$20.60</span>
                           </p>
-                          <p class="d-flex mb-5" style="width:100%;">
+                          <p class="d-flex mb-5">
                               
-                                    <span style="color:#bfbfbf;padding-left:5px;font-size:15px;">Delivery</span>
+                                    <span >Delivery</span>
                               
                               
-                                    <span style="color:#bfbfbf;padding-left:5px; font-size:15px;">$2.00</span>
+                                    <span >$2.00</span>
                           </p>
-                          <p class="d-flex mb-5" style="width:100%;">
+                          <p class="d-flex mb-5" >
                               
-                                    <span style="color:#bfbfbf;padding-left:5px;font-size:15px;">Discount</span>
+                                    <span >Discount</span>
                               
                               
-                                    <span style="color:#bfbfbf;padding-left:5px; font-size:15px;">$3.00</span>
+                                    <span >$3.00</span>
                           </p>
                           <hr>
-                          <p class="d-flex mb-5" style="width:100%;">
+                          <p class="d-flex mb-5" >
                               
-                                    <span style="color:#bfbfbf;padding-left:5px;font-size:15px;">Total</span>
+                                    <span>Total</span>
                               
                               
-                                    <span style="color:#c49b63;padding-left:5px; font-size:15px;">$19.60</span>
+                                    <span class="total">$19.60</span>
                           </p>
                           <form action="{{url('checkOutOrder')}}">
-                            <div class="form-group order">
-                                      <input type="submit"  style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="PROCEED TO CHECKOUT">
+                            <div class="form-group order-booking">
+                                      <input type="submit"   class="form-control btn btn-primary" value="PROCEED TO CHECKOUT">
                               </div>
                             </form>
                          </div>    
