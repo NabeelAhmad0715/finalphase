@@ -1,11 +1,11 @@
-@extends('front_end.packages')
+@extends('front_end.flightPackages')
 
 @section('Packages')
 
     <div class="col-lg-8 col-md-10 mx-auto">
         <div class="row">
             <div class="col-md-12 hotel-single mt-4 mb-5 ftco-animate">	
-          			<h2>Luxury Hotel in Paris</h2>
+          			<h2>Paris Flight</h2>
           			<p class="rate mb-5">
           				<span class="loc"><a href="#"><i class="icon-map"></i> 291 South 21th Street, Suite 721 New York NY 10016</a></span>
           				<span class="star">

@@ -52,14 +52,21 @@ class packageController extends Controller
     }
 
     public function travelInsurance(){
-        return view('front_end.travelInsurance');
+        return view('front_end.insuranceSearch');
     }
 
-     public function flightInsurance(){
-        return view('front_end.flightInsurance');
+   
+    public function hotelDetails(){
+        return view('front_end.hotelDetails');
     }
-    public function details(){
-        return view('front_end.packageDetails');
+    public function flightDetails(){
+        return view('front_end.flightDetails');
+    }
+    public function carRentalDetails(){
+        return view('front_end.carRentalsDetails');
+    }
+    public function insuranceDetails(){
+        return view('front_end.insuranceDetails');
     }
  
 }

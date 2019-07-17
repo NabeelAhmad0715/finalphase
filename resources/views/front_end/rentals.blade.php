@@ -43,7 +43,7 @@
                                       <label for="#">Check In</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-calendar"></span></div>
-                                        <input type="text" name="rental_check_in" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="Check In" required>
+                                        <input type="text" autocomplete='off' name="rental_check_in" class="form-control" id="carRentalCheckIn"  placeholder="Check In" required>
                                       </div>
                                     </div>
                                   </div>
@@ -52,7 +52,7 @@
                                       <label for="#">Check Out</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-calendar"></span></div>
-                                        <input type="text" name="rental_check_out" class="form-control unstyled"  onfocus="(this.type='date')" onfocusout="(this.type='text')"  placeholder="From" required>
+                                        <input type="text" autocomplete='off' name="rental_check_out" class="form-control" id="carRentalCheckOut"  placeholder="From" required>
                                       </div>
                                     </div>
                                   </div>
@@ -74,4 +74,17 @@
             </div>       
        </section>
 
+<script>
+           $(function () {
+             $('#carRentalCheckIn').datepicker({
+               minDate: 0,
+             });
+
+             $('#carRentalCheckOut').datepicker({
+               minDate: 0,
+             });
+
+
+           });
+  </script>
 @endsection

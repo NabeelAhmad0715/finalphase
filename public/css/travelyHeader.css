@@ -13,6 +13,7 @@
           background-repeat: no-repeat;
           background-position: center center;
           width: 100%;
+          background-attachment: fixed;
           position: inherit;
           
         }

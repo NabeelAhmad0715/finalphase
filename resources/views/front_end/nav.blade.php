@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<div class="loader" ></div>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,10 +68,6 @@
 
 </head>
 <body  id="scroll">
-
-<div class="loader" ></div>
-
-
         <!-- Header -->
 
       <header id="navbar" >

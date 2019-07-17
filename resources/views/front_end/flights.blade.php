@@ -50,7 +50,7 @@
                                           <label for="#">Check In</label>
                                           <div class="form-field">
                                             <div class="icon"><span class="icon-calendar"></span></div>
-                                            <input type="text" class="form-control" id="flightCheckIn" placeholder="Check In" required>
+                                            <input type="text" autocomplete='off' class="form-control" id="flightCheckIn" placeholder="Check In" required>
                                           </div>
                                         </div>
                                       </div>
@@ -59,7 +59,7 @@
                                           <label for="#">Check Out</label>
                                           <div class="form-field">
                                             <div class="icon"><span class="icon-calendar"></span></div>
-                                            <input type="text" class="form-control" id="flightCheckOut"  placeholder="From" required>
+                                            <input type="text" autocomplete='off' class="form-control" id="flightCheckOut"  placeholder="From" required>
                                           </div>
                                         </div>
                                       </div>

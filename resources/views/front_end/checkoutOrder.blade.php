@@ -89,11 +89,12 @@
                             </div>
                         </div>
 
-
+<input type="submit" id="masterCardId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="Master Card">
+                                          <input type="submit" id="visaCardId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="Visa Card">
+                                     </form>
                         </div>
-                        <input type="submit" id="masterCardId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="BOOK NOW">
-                        <input type="submit" id="visaCardId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="BOOK NOW">
-                    </form>
+                       
+                   
               </div>
 
               <div class="col-lg-3 col-md-6 col-sm-12 col-10 cart-checkout" >
@@ -143,15 +144,19 @@
                                           <input type="hidden" name="amount_2" value="6.00">
                                           <input type="hidden" name="shipping_2" value="0.50">
                                            <input type="hidden" name="cancel_return" id="cancel_return" value="http://localhost:8000/checkOutOrder" />
-                                           <!-- <input type="hidden" name="return" id="return" value="http://localhost:8000/thankyou" /> -->
-                                          <input type="submit" id="paypalId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="BOOK NOW">
+                                          <input type="hidden" name="return" id="return" value="http://localhost:8000/checkoutOrder" />
+                                          
+                                          <input type="submit" id="paypalId" style="background:#f9be37;color:#fff;" class="form-control btn btn-primary" value="Paypal">
                                     </form>
+                                               
                             </div>
+                            
                          </div>
-
+ 
+                                          
                    </div>
-
               </div>
+              
       </div>
   </div>
 

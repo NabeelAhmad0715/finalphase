@@ -27,9 +27,18 @@
                               <form action="{{url('/travelInsurance')}}" class="search-destination">
                               <div class="tab-pane " id="v_pills_4" role="tabpanel" aria-labelledby="v-pills-effect-tab">
                                 <div class="row">
+                                <div class="col-md align-items-end">
+                                    <div class="form-group">
+                                      <label for="#">Location</label>
+                                      <div class="form-field">
+                                        <div class="icon"><span class="icon-my_location"></span></div>
+                                        <input type="text" class="form-control" placeholder="Location" required>
+                                      </div>
+                                    </div>
+                                  </div>
                                   <div class="col-md align-items-end">
                                     <div class="form-group">
-                                      <label for="#">Number of Person</label>
+                                      <label for="#">Persons</label>
                                       <div class="form-field">
                                         <div class="icon"><span class="icon-person"></span></div>
                                         <input type="text" class="form-control" placeholder="Persons" required>

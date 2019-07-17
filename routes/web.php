@@ -35,18 +35,23 @@ Route::get('/hotels',function(){
 	return view('front_end.hotels');
 });
 
+
 Route::get('/genericPackages','frontEnd\packageController@genericPackage');
 Route::get('/flightPackages','frontEnd\packageController@flightPackages');
 Route::get('/hotelPackages','frontEnd\packageController@hotelPackages');
 Route::get('/carRentalPackages','frontEnd\packageController@carRentalPackages');
-Route::get('/packageDetails','frontEnd\packageController@details');
+
+Route::get('/hotelDetails','frontEnd\packageController@hotelDetails');
+Route::get('/flightDetails','frontEnd\packageController@flightDetails');
+Route::get('/carRentalDetails','frontEnd\packageController@carRentalDetails');
+Route::get('/insuranceDetails','frontEnd\packageController@insuranceDetails');
+
 
 
 
 
 // Inssurance
 Route::get('/travelInsurance','frontEnd\packageController@travelInsurance');
-Route::get('/flightInsurance','frontEnd\packageController@flightInsurance');
 
 // home Pages
 
